@@ -96,15 +96,15 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Professional Stripper",
+        company: "Professional Salmon Eater",
         timeframe: "2022 - Present",
         role: "Performance Specialist in Theatrical Entertainment",
         achievements: [
           <>
-            Beat Lily Philips and Bonnie Blue to it.
+            Beat Salmon Eating world record.
           </>,
           <>
-            Streamlined the Gock-Gock 3000, enabling 50% faster finishing.
+            Streamlined swallowing, enabling 50% faster eating.
           </>,
         ],
         images: [],
