@@ -26,15 +26,16 @@ const newsletter = {
 const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
-  {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
-  },
+  
+  // {
+  //   name: "GitHub",
+  //   icon: "github",
+  //   link: "https://github.com/once-ui-system/nextjs-starter",
+  // },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/simon-manrakhan-533870225/",
   },
   {
     name: "X",
@@ -50,7 +51,7 @@ const social = [
 
 const home = {
   label: "Home",
-  title: `${person.name}'s Portfolio`,
+  title: `About me`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Simon Manrakhan</>,
   subline: (
@@ -64,6 +65,12 @@ const about = {
   label: "About",
   title: "About me",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  headline: <>Simon Manrakhan</>,
+  subline: (
+    <>
+      I am a Business Engineering student at <InlineCode>Maastricht University</InlineCode>.
+    </>
+  ),
   tableOfContent: {
     display: true,
     subItems: false,
@@ -73,7 +80,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/simonmanrakhan/15min",
   },
   intro: {
     display: true,
@@ -89,28 +96,18 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
+        company: "Professional Stripper",
         timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        role: "Performance Specialist in Theatrical Entertainment",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Beat Lily Philips and Bonnie Blue to it.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Streamlined the Gock-Gock 3000, enabling 50% faster finishing.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
         company: "Creativ3",
@@ -149,7 +146,7 @@ const about = {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Technical skills",
     skills: [
       {
@@ -283,4 +280,4 @@ const gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, about, home,  blog, work, gallery };

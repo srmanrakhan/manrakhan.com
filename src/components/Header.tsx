@@ -3,11 +3,11 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-import { Fade, Flex, Line, ToggleButton } from "@/once-ui/components";
+import { Fade, Flex, Line, IconButton, Icon, ToggleButton } from "@/once-ui/components";
 import styles from "@/components/Header.module.scss";
 
 import { routes, display } from "@/app/resources";
-import { person, home, about, blog, work, gallery } from "@/app/resources/content";
+import { person, home, blog, about, work, gallery } from "@/app/resources/content";
 
 type TimeDisplayProps = {
   timeZone: string;
@@ -62,20 +62,39 @@ export const Header = () => {
           {display.location && <Flex hide="s">{person.location}</Flex>}
         </Flex>
         <Flex fillWidth horizontal="center">
-          <Flex
+          {/* <Flex
             background="surface"
             border="neutral-medium"
             radius="m-4"
             shadow="l"
-            padding="4"
             horizontal="center"
-          >
-            <Flex gap="4" vertical="center" textVariant="body-default-s">
-              {routes["/"] && (
-                <ToggleButton prefixIcon="home" href="/" selected={pathname === "/"} />
-              )}
-              <Line vert maxHeight="24" />
-              {routes["/about"] && (
+          > */}
+          <Flex gap="4" vertical="center" textVariant="body-default-s">
+            <Flex
+              fitWidth
+              border="brand-alpha-medium"
+              className={styles.blockAlign}
+              style={{
+                backdropFilter: "blur(var(--static-space-1))",
+              }}
+              background="brand-alpha-weak"
+              radius="full"
+              padding="4"
+              gap="8"
+              marginBottom="m"
+              vertical="center"
+            >
+              <Icon paddingLeft="12" name="calendar" onBackground="brand-weak" />
+              <Flex paddingX="8">Schedule a call</Flex>
+              <IconButton
+                href={about.calendar.link}
+                data-border="rounded"
+                variant="secondary"
+                icon="chevronRight"
+              />
+            </Flex>
+          </Flex>
+              {/* {routes["/about"] && (
                 <>
                   <ToggleButton
                     className="s-flex-hide"
@@ -91,8 +110,8 @@ export const Header = () => {
                     selected={pathname === "/about"}
                   />
                 </>
-              )}
-              {routes["/meet"] && (
+              )} */}
+              {/* {routes["/meet"] && (
                 <>
                   <ToggleButton
                     className="s-flex-hide"
@@ -108,7 +127,7 @@ export const Header = () => {
                     selected={pathname.startsWith("/meet")}
                   />
                 </>
-              )}
+              )} */}
               {/* {routes["/blog"] && (
                 <>
                   <ToggleButton
@@ -143,8 +162,8 @@ export const Header = () => {
                   />
                 </>
               )} */}
-            </Flex>
-          </Flex>
+            {/* </Flex> */}
+          {/* </Flex> */}
         </Flex>
         <Flex fillWidth horizontal="end" vertical="center">
           <Flex

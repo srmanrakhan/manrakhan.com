@@ -120,7 +120,7 @@ export default function About() {
               {person.location}
             </Flex>
             {person.languages.length > 0 && (
-              <Flex wrap gap="8">
+              <Flex wrap gap="8" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 {person.languages.map((language, index) => (
                   <Tag key={index} size="l">
                     {language}
