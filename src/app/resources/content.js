@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Simon",
+  lastName: "Manrakhan",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "Business Engineer Student, Aspiring Engineer",
+  avatar: "/images/manrakhan2.JPG",
+  location: "Europe/Amsterdam", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "French", "Mauritian Creole", "Spanish"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "srmanrakhan@gmail.com",
   },
 ];
 
@@ -52,11 +52,10 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Simon Manrakhan</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I am a Business Engineering student at <InlineCode>Maastricht University</InlineCode>.
     </>
   ),
 };
@@ -81,9 +80,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Currently based in the Netherlands, I aspire to become an Engineer. Passionate about Engineering and Economics, Business Engineering is a perfect match between the two fields, before potentially completing a specialised Masters in Asia.
       </>
     ),
   },
@@ -138,12 +135,16 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Hurtwood House",
+        description: <>Studied Mathematics, Physics & Economics.</>,
+      },
+      {
+        name: "Maastricht University",
+        description: <>Studying Business Engineering.</>,
       },
       {
         name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        description: <>Studying Machine Learning and Programming.</>,
       },
     ],
   },

@@ -92,24 +92,24 @@ export const Header = () => {
                   />
                 </>
               )}
-              {routes["/work"] && (
+              {routes["/meet"] && (
                 <>
                   <ToggleButton
                     className="s-flex-hide"
                     prefixIcon="grid"
-                    href="/work"
+                    href="/meet"
                     label={work.label}
-                    selected={pathname.startsWith("/work")}
+                    selected={pathname.startsWith("/meet")}
                   />
                   <ToggleButton
                     className="s-flex-show"
                     prefixIcon="grid"
-                    href="/work"
-                    selected={pathname.startsWith("/work")}
+                    href="/meet"
+                    selected={pathname.startsWith("/meet")}
                   />
                 </>
               )}
-              {routes["/blog"] && (
+              {/* {routes["/blog"] && (
                 <>
                   <ToggleButton
                     className="s-flex-hide"
@@ -125,8 +125,8 @@ export const Header = () => {
                     selected={pathname.startsWith("/blog")}
                   />
                 </>
-              )}
-              {routes["/gallery"] && (
+              )} */}
+              {/* {routes["/gallery"] && (
                 <>
                   <ToggleButton
                     className="s-flex-hide"
@@ -142,7 +142,7 @@ export const Header = () => {
                     selected={pathname.startsWith("/gallery")}
                   />
                 </>
-              )}
+              )} */}
             </Flex>
           </Flex>
         </Flex>
