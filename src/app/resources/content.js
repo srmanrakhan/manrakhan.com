@@ -63,14 +63,8 @@ const home = {
 
 const about = {
   label: "About",
-  title: "About me",
+  title: "Simon Manrakhan",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
-  headline: <>Simon Manrakhan</>,
-  subline: (
-    <>
-      I am a Business Engineering student at <InlineCode>Maastricht University</InlineCode>.
-    </>
-  ),
   tableOfContent: {
     display: true,
     subItems: false,
