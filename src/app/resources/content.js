@@ -13,7 +13,7 @@ const person = {
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -45,7 +45,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:srmanrakhan@gmail.com",
+    link: "mailto:simon@manrakhan.com",
   },
 ];
 
@@ -96,23 +96,23 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Professional Salmon Eater",
-        timeframe: "2022 - Present",
-        role: "Performance Specialist in Theatrical Entertainment",
+        company: "Emtel Ltd",
+        timeframe: "2023",
+        role: "Electrical Engineering Trainee",
         achievements: [
           <>
-            Beat Salmon Eating world record.
+            Key insights on the distribution of network through fiber optic cables in and out of Mauritius.
           </>,
           <>
-            Streamlined swallowing, enabling 50% faster eating.
+           First hand exposure of planning and field operations.
           </>,
         ],
         images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Hobbies",
+        timeframe: "",
+        role: "Artistic & Athletic",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
