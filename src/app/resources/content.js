@@ -6,8 +6,8 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Business Engineer Student, Aspiring Engineer",
-  avatar: "/images/manrakhan2.JPG",
+  role: "Business Engineering Student",
+  avatar: "/images/manrakhan.jpg",
   location: "Europe/Amsterdam", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "French", "Mauritian Creole", "Spanish"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -109,13 +109,11 @@ const about = {
         role: "Artistic & Athletic",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Interested in arts and craft since a very young age, especially painting and drawing. Music lover, I practice the guitar and piano.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+            I practice mixed martial arts whilst training towards the 2025 Berlin marathon.
+          </>
         ],
         images: [],
       },
