@@ -81,7 +81,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Currently based in the Netherlands, I aspire to become an Engineer. Passionate about Engineering and Economics, Business Engineering is a perfect match between the two fields, before potentially completing a specialised Masters in Asia.
+        Currently based in the Netherlands, I aspire to become an Engineer. Passionate about Engineering and Economics, Business Engineering perfectly matches the two fields before potentially completing a specialised Master's in Asia.      
       </>
     ),
   },
@@ -95,10 +95,10 @@ const about = {
         role: "Electrical Engineering Trainee",
         achievements: [
           <>
-            Key insights on the distribution of network through fiber optic cables in and out of Mauritius.
+          Key insights on the distribution of network through fiber optic cables in and out of Mauritius.
           </>,
           <>
-           First hand exposure of planning and field operations.
+          First-hand exposure to planning and field operations.
           </>,
         ],
         images: [],
@@ -109,10 +109,13 @@ const about = {
         role: "Artistic & Athletic",
         achievements: [
           <>
-            Interested in arts and craft since a very young age, especially painting and drawing. Music lover, I practice the guitar and piano.
+            Creative pursuits: painting and drawing.
           </>,
           <>
-            I practice mixed martial arts whilst training towards the 2025 Berlin marathon.
+            Musical interests: playing the guitar and piano.
+          </>,
+          <>
+            Physical activities: mixed martial arts and training for the 2025 Berlin marathon.
           </>
         ],
         images: [],
@@ -125,14 +128,17 @@ const about = {
     institutions: [
       {
         name: "Hurtwood House",
-        description: <>Studied Mathematics, Physics & Economics.</>,
+        timeframe: "2021 - 2024",
+        description: <> Studied Mathematics, Physics & Economics.</>,
       },
       {
         name: "Maastricht University",
+        timeframe: "2024 - present",
         description: <>Studying Business Engineering.</>,
       },
       {
         name: "Build the Future",
+        timeframe: "2025 - present",
         description: <>Studying Machine Learning and Programming.</>,
       },
     ],

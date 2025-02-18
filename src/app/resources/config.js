@@ -36,16 +36,16 @@ const effects = {
   gradient: {
     display: true,
     x: 50,
-    y: 0,
+    y: 50,
     width: 100,
     height: 100,
     tilt: 0,
     colorStart: "brand-background-strong",
     colorEnd: "static-transparent",
-    opacity: 50,
+    opacity: 40,
   },
   dots: {
-    display: true,
+    display: false,
     size: 2,
     color: "brand-on-background-weak",
     opacity: 20,
@@ -56,9 +56,9 @@ const effects = {
     opacity: 100,
   },
   grid: {
-    display: false,
+    display: true,
     color: "neutral-alpha-weak",
-    opacity: 100,
+    opacity: 50,
   },
 };
 
@@ -71,7 +71,7 @@ const mailchimp = {
   action: "https://url/subscribe/post?parameters",
   effects: {
     mask: {
-      cursor: false,
+      cursor: true,
       x: 100,
       y: 0,
       radius: 100,
