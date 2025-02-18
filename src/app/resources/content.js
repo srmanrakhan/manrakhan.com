@@ -38,14 +38,14 @@ const social = [
     link: "https://www.linkedin.com/in/simon-manrakhan-533870225/",
   },
   {
-    name: "X",
-    icon: "x",
-    link: "",
-  },
-  {
     name: "Email",
     icon: "email",
     link: "mailto:simon@manrakhan.com",
+  },
+  {
+    name: "CV",
+    icon: "file",
+    link: "/SimonManrakhanCV.pdf",
   },
 ];
 
@@ -85,6 +85,7 @@ const about = {
       </>
     ),
   },
+
   work: {
     display: true, // set to false to hide this section
     title: "Work Experience",
