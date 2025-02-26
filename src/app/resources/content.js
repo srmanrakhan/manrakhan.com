@@ -129,7 +129,7 @@ const about = {
     institutions: [
       {
         name: "Hurtwood House",
-        timeframe: "2021 - 2024",
+        timeframe: "2022 - 2024",
         description: <> Studied Mathematics, Physics & Economics.</>,
       },
       {
