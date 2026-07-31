@@ -81,7 +81,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Currently based in the Netherlands, I aspire to become an Engineer. Passionate about Engineering and Economics, Business Engineering perfectly matches the two fields before potentially completing a specialised Master's in Asia.      
+        Currently based in Hong Kong, studying at Hong Kong University of Science and Technology, I aspire to become an Data Scientist. Passionate about Engineering and Economics, Business Engineering perfectly matches the two fields before potentially completing a specialised Master's in Asia.      
       </>
     ),
   },
@@ -116,7 +116,7 @@ const about = {
             Musical interests: playing the guitar and piano.
           </>,
           <>
-            Physical activities: mixed martial arts and training for the 2025 Berlin marathon.
+            Physical activities: mixed martial arts and training for the 2026 Berlin marathon.
           </>
         ],
         images: [],
@@ -135,7 +135,7 @@ const about = {
       {
         name: "Maastricht University",
         timeframe: "2024 - present",
-        description: <>Studying Business Engineering.</>,
+        description: <>Studying Business Engineering, currently on exchange at Hong Kong University of Science and Technology</>,
       },
       {
         name: "Build the Future",
