@@ -39,4 +39,5 @@
     "postcss-flexbugs-fixes": "^5.0.2",
     "typescript": "^5"
   }
+  "next-mdx-remote": "^6.0.0"
 }
